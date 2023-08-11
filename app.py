@@ -3,6 +3,7 @@ import json
 import os.path
 
 app = Flask(__name__)
+app.secret_key = 'qhb3hf983bqduqr81h4ef8u34th139fun4h8f19fiujq'
 
 @app.route('/')
 def home():
